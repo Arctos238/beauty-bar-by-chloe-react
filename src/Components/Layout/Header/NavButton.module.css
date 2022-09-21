@@ -6,18 +6,18 @@
   .navBtn {
     display: block;
     grid-column: 3 / 4;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 
     background-color: #ffc5b9;
     font-size: 14px;
     cursor: pointer;
 
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
     border-radius: 35%;
     transition: ease-in-out 200ms;
-    border: #ffc5b9 solid 2px;
+    border: #ffc5b9 solid 4px;
   }
 
   .navBtn:hover {

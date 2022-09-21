@@ -1,0 +1,15 @@
+.header {
+  background-color: #ffc5b9;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-column-gap: 5px;
+  justify-items: center;
+  align-items: center;
+
+  margin-bottom: 30px;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  transition: padding 300ms ease;
+}

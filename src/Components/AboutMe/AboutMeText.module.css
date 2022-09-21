@@ -1,0 +1,42 @@
+.mainContent {
+  padding-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainContent p {
+  margin-bottom: 15px;
+  word-spacing: 3px;
+}
+
+.mainContent p,
+li {
+  font-size: 22px;
+}
+
+.mainContent h3 {
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.theBusinessBox {
+  margin-bottom: 40px;
+}
+
+.whyMeBox {
+  margin-bottom: 40px;
+}
+
+.whyMeBox ul {
+  padding-left: 30px;
+}
+
+.whyMeBox li {
+  margin-bottom: 10px;
+}
+
+.whyMeBox li:last-child {
+  margin-bottom: 0px;
+}

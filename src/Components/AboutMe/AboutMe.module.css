@@ -1,0 +1,12 @@
+.aboutMe {
+  display: grid;
+  grid-template-columns: 70% 20%;
+  column-gap: 50px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .aboutMe {
+    width: 80%;
+    display: block;
+  }
+}

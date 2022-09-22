@@ -1,13 +1,18 @@
 .Footer {
-    background-color: #ffc5b9;
-    display: flex;
-  
-    width: 100%;
-    height: 180px;
-    margin-left: auto;
-    margin-right: auto;
-  
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: center;
-  }
+  background-color: #ffc5b9;
+  display: flex;
+
+  width: 100%;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.socialBox {
+  padding-left: 20px;
+}

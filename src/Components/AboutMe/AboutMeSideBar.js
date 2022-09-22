@@ -6,9 +6,9 @@ import manicure_one from "../../assets/imgs/manicure_one.jpg";
 const AboutMeSideBar = (props) => {
   return (
     <aside className={classes.aboutMeSideBar}>
-      <img class="side-bar-imgs" src={facial_one} alt="" />
-      <img class="side-bar-imgs" src={beauty_products} alt="" />
-      <img class="side-bar-imgs" src={manicure_one} alt="" />
+      <img className="side-bar-imgs" src={facial_one} alt="" />
+      <img className="side-bar-imgs" src={beauty_products} alt="" />
+      <img className="side-bar-imgs" src={manicure_one} alt="" />
     </aside>
   );
 };

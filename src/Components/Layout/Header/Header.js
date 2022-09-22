@@ -1,16 +1,22 @@
 import React, { useState } from "react";
 
-import CompanyLogo from "../../UI/CompanyLogo";
 import NavButton from "./NavButton";
+import CompanyLogo from "../../UI/CompanyLogo";
+import NavBar from "./NavBar";
 import classes from "./Header.module.css";
 
 const Header = (props) => {
-  const [navOpen, setNavOpen] = useState(false);
+  const [isNavOpen, setNavOpen] = useState(false);
+
+  const navOpenHandler = (isNavOpen) => {
+    setNavOpen(isNavOpen);
+  };
 
   return (
     <header className={classes.header}>
       <CompanyLogo />
-      <NavButton />
+      <NavBar isNavOpen={isNavOpen} />
+      <NavButton navOpenHandler={navOpenHandler}></NavButton>
     </header>
   );
 };

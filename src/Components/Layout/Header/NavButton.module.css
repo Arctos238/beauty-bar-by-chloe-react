@@ -8,6 +8,8 @@
     grid-column: 3 / 4;
     width: 60px;
     height: 60px;
+    justify-self: right;
+    margin-right: 10px;
 
     background-color: #ffc5b9;
     font-size: 14px;

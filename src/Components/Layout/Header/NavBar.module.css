@@ -1,0 +1,43 @@
+.NavBar {
+  display: flex;
+  gap: 50px;
+}
+
+.NavBar a:link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 80px;
+  padding: 5px;
+
+  transition: ease-in-out 200ms;
+}
+
+.NavBar a:link:hover {
+  background-color: white;
+}
+
+.navOpen {
+  display: flex;
+}
+
+.navClosed {
+  display: none;
+}
+
+@media only screen and (max-width: 1150px) {
+  .NavBar {
+    flex-direction: column;
+    grid-row: 2;
+    grid-column: 1 / -1;
+    align-self: center;
+    justify-self: center;
+
+    text-align: center;
+    /* transition: visibility 0s, opacity 0.5s linear; */
+  }
+
+  .NavBar a:last-child {
+    margin-bottom: 25px;
+  }
+}

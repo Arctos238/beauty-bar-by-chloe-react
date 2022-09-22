@@ -1,23 +1,20 @@
-.contactMe {
-  height: 150px;
+.ContactMe {
   flex-grow: 0;
   flex-shrink: 0;
-  margin-left: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
   margin-bottom: 10px;
-
-  font-size: 10px;
-  list-style: none;
-  font-weight: bold;
+  height: 100px;
 }
 
-.contactMe h4 {
-    padding-bottom: 5px;
-    font-size: 16px;
+.ContactMe h4 {
+  padding-bottom: 5px;
+  font-size: 16px;
 }
 
 .ContactMeList li {
-    font-size: 10px;
-    list-style: none;
-    font-weight: bold;
-    margin-bottom: 3px;
-  }
+  font-size: 10px;
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
